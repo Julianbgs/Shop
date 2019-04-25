@@ -12,6 +12,9 @@ body {
   font-family: inherit;
   text-align: left;
   vertical-align: baseline;
+  background-image: url("../../img/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -92,11 +95,8 @@ textarea:active {
   position: relative;
   float: left;
   width: 100%;
-  background-image: url("../../img/bg-baner.png");
-  background-size: cover;
-  background-repeat: no-repeat;
   z-index: 1;
-  height: 700px;
+  height: 650px;
 }
 
 .baner__logo {
@@ -119,22 +119,34 @@ textarea:active {
   width: 100%;
   text-align: center;
   margin-top: 25px;
+  margin-bottom: 0;
   color: #014ab1;
   font-family: "Century Gothic";
-  font-size: 37px;
+  font-size: 43px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.baner__sub-title {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  color: #014ab1;
+  font-family: "Century Gothic";
+  font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .baner__white-bg {
   position: absolute;
-  top: 275px;
+  top: 310px;
   z-index: 2;
   width: 100%;
   background-image: url("../../img/white-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 230px;
+  height: 225px;
   background-position-y: 30px;
 }
 
@@ -151,7 +163,6 @@ textarea:active {
 
 .baner__author-text {
   position: relative;
-  margin-left: 80px;
 }
 
 .baner__author-title {
@@ -161,7 +172,7 @@ textarea:active {
   margin-top: 80px;
   color: #014ab1;
   font-family: Calibri;
-  font-size: 22px;
+  font-size: 32px;
   font-style: italic;
 }
 
@@ -185,6 +196,135 @@ textarea:active {
 }
 
 .baner__author-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.baner__mirror {
+  position: absolute;
+  top: 613px;
+  width: 100%;
+  height: 300px;
+  background-image: url("../../img/mirror.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.baner__count {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.baner__count-elem {
+  position: relative;
+}
+
+.baner__count-title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: -10px;
+  color: #014ab1;
+  font-family: "Century Gothic";
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.baner__count-num {
+  width: 100%;
+  text-align: center;
+  color: #014ab1;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Century Gothic";
+  font-size: 74px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.baner__count-descr {
+  width: 100%;
+  text-align: center;
+  color: #014ab1;
+  font-family: "Century Gothic";
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.partner {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.partner__title {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  color: #014ab1;
+  font-family: "Century Gothic";
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.partner__triang-top {
+  position: absolute;
+  top: -155px;
+  width: 100%;
+  background-image: url("../../img/triangle-top.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.partner__bg {
+  position: relative;
+  top: 30px;
+  float: left;
+  width: 100%;
+  height: 185px;
+  background-image: url("../../img/partner-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.partner__box {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 210px;
+}
+
+.partner__box-elem {
+  position: relative;
+}
+
+.partner__box-img {
+  height: 110px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.partner__box-img img {
   width: 100%;
   height: 100%;
   -o-object-fit: contain;

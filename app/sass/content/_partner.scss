@@ -1,0 +1,65 @@
+.partner {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin-top: 30px;
+
+  &__title {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #014ab1;
+    font-family: "Century Gothic";
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__triang-top {
+    position: absolute;
+    top: -155px;
+    width: 100%;
+    background-image: url("../../img/triangle-top.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  &__bg {
+    position: relative;
+    top: 30px;
+    float: left;
+    width: 100%;
+    height: 185px;
+    background-image: url("../../img/partner-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &__box {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 210px;
+
+    &-elem {
+      position: relative;
+    }
+
+    &-img {
+      height: 110px;
+      overflow: hidden;
+      margin: 0 auto;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+
+
+
+}

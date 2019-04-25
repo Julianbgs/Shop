@@ -2,11 +2,11 @@
   position: relative;
   float: left;
   width: 100%;
-  background-image: url("../../img/bg-baner.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  //background-image: url("../../img/bg-baner.png");
+  //background-size: cover;
+  //background-repeat: no-repeat;
   z-index: 1;
-  height: 700px;
+  height: 650px;
 
 
   &__logo {
@@ -27,23 +27,34 @@
     width: 100%;
     text-align: center;
     margin-top: 25px;
+    margin-bottom: 0;
     color: #014ab1;
     font-family: "Century Gothic";
-    font-size: 37px;
+    font-size: 43px;
     font-weight: 700;
     text-transform: uppercase;
+  }
 
+  &__sub-title {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #014ab1;
+    font-family: "Century Gothic";
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
   }
 
   &__white-bg {
     position: absolute;
-    top: 275px;
+    top: 310px;
     z-index: 2;
     width: 100%;
     background-image: url("../../img/white-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 230px;
+    height: 225px;
     background-position-y: 30px;
   }
 
@@ -54,7 +65,6 @@
 
     &-text {
       position: relative;
-      margin-left: 80px;
     }
 
     &-title {
@@ -64,7 +74,7 @@
       margin-top: 80px;
       color: #014ab1;
       font-family: Calibri;
-      font-size: 22px;
+      font-size: 32px;
       font-style: italic;
     }
 
@@ -94,4 +104,59 @@
     }
   }
 
+  &__mirror {
+    position: absolute;
+    top: 613px;
+    width: 100%;
+    height: 300px;
+    background-image: url("../../img/mirror.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &__count {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+
+
+    &-elem {
+      position: relative;
+    }
+
+    &-title {
+      width: 100%;
+      text-align: center;
+      margin-bottom: -10px;
+      color: #014ab1;
+      font-family: "Century Gothic";
+      font-size: 15px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    &-num {
+      width: 100%;
+      text-align: center;
+      color: #014ab1;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-family: "Century Gothic";
+      font-size: 74px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    &-descr {
+      width: 100%;
+      text-align: center;
+      color: #014ab1;
+      font-family: "Century Gothic";
+      font-size: 15px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
 }
