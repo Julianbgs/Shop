@@ -1,0 +1,97 @@
+.baner {
+  position: relative;
+  float: left;
+  width: 100%;
+  background-image: url("../../img/bg-baner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  height: 700px;
+
+
+  &__logo {
+    width: 292px;
+    height: 138px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 45px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  &__title {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+    color: #014ab1;
+    font-family: "Century Gothic";
+    font-size: 37px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+  }
+
+  &__white-bg {
+    position: absolute;
+    top: 275px;
+    z-index: 2;
+    width: 100%;
+    background-image: url("../../img/white-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 230px;
+    background-position-y: 30px;
+  }
+
+  &__author {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    &-text {
+      position: relative;
+      margin-left: 80px;
+    }
+
+    &-title {
+      position: relative;
+      width: 100%;
+      text-align: center;
+      margin-top: 80px;
+      color: #014ab1;
+      font-family: Calibri;
+      font-size: 22px;
+      font-style: italic;
+    }
+
+    &-descr {
+      position: relative;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+      color: #014ab1;
+      font-family: Calibri;
+      font-size: 22px;
+      font-style: italic;
+    }
+  }
+
+  &__author-img {
+    position: relative;
+    top: 20px;
+    width: 272px;
+    height: 271px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+}

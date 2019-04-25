@@ -84,8 +84,111 @@ textarea:active {
 
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1020px;
   }
+}
+
+.baner {
+  position: relative;
+  float: left;
+  width: 100%;
+  background-image: url("../../img/bg-baner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  height: 700px;
+}
+
+.baner__logo {
+  width: 292px;
+  height: 138px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 45px;
+}
+
+.baner__logo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.baner__title {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-top: 25px;
+  color: #014ab1;
+  font-family: "Century Gothic";
+  font-size: 37px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.baner__white-bg {
+  position: absolute;
+  top: 275px;
+  z-index: 2;
+  width: 100%;
+  background-image: url("../../img/white-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 230px;
+  background-position-y: 30px;
+}
+
+.baner__author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.baner__author-text {
+  position: relative;
+  margin-left: 80px;
+}
+
+.baner__author-title {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-top: 80px;
+  color: #014ab1;
+  font-family: Calibri;
+  font-size: 22px;
+  font-style: italic;
+}
+
+.baner__author-descr {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  color: #014ab1;
+  font-family: Calibri;
+  font-size: 22px;
+  font-style: italic;
+}
+
+.baner__author-img {
+  position: relative;
+  top: 20px;
+  width: 272px;
+  height: 271px;
+  overflow: hidden;
+}
+
+.baner__author-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
 }
 
 /*# sourceMappingURL=styles.css.map */
