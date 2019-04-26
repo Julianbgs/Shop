@@ -280,9 +280,16 @@ textarea:active {
   text-transform: uppercase;
 }
 
+.partner__static {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
 .partner__triang-top {
   position: absolute;
-  top: -155px;
+  top: -180px;
+  height: 200px;
   width: 100%;
   background-image: url("../../img/triangle-top.png");
   background-size: contain;
@@ -311,7 +318,7 @@ textarea:active {
   justify-content: space-between;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-top: 210px;
+  margin-top: 50px;
 }
 
 .partner__box-elem {
