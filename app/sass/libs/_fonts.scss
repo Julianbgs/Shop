@@ -2,4 +2,16 @@
 //@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i');
 //@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
 //@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');
-//@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+
+@font-face {
+  font-family: 'Gothic';
+  src: url('../fonts/Gothic/GOTHIC.eot') format('embedded-opentype'),
+  url('../fonts/Gothic/GOTHIC.woff2') format('woff2'),
+  url('../fonts/Gothic/GOTHIC.woff') format('woff'),
+  url('../fonts/Gothic/GOTHIC.ttf') format('truetype'),
+  url('../fonts/Gothic/GOTHIC.svg') format('svg');
+}
+
+$Gothic : 'Gothic';
+$Lato : 'Lato',sans-serif;

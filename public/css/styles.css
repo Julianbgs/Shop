@@ -1,3 +1,79 @@
+@font-face {
+  font-family: Lato;
+  font-style: italic;
+  font-weight: 100;
+  src: local("Lato Hairline Italic"), local(Lato-HairlineItalic), url(//fonts.gstatic.com/s/lato/v14/S6u-w4BMUTPHjxsIPx-oPCY.eot?#) format("eot"), url(//fonts.gstatic.com/s/lato/v14/S6u-w4BMUTPHjxsIPx-oPCI.woff2) format("woff2"), url(//fonts.gstatic.com/s/lato/v14/S6u-w4BMUTPHjxsIPx-oPCQ.woff) format("woff");
+}
+
+@font-face {
+  font-family: Lato;
+  font-style: italic;
+  font-weight: 300;
+  src: local("Lato Light Italic"), local(Lato-LightItalic), url(//fonts.gstatic.com/s/lato/v14/S6u_w4BMUTPHjxsI9w2_Gwfp.eot?#) format("eot"), url(//fonts.gstatic.com/s/lato/v14/S6u_w4BMUTPHjxsI9w2_Gwft.woff2) format("woff2"), url(//fonts.gstatic.com/s/lato/v14/S6u_w4BMUTPHjxsI9w2_Gwfr.woff) format("woff");
+}
+
+@font-face {
+  font-family: Lato;
+  font-style: italic;
+  font-weight: 400;
+  src: local("Lato Italic"), local(Lato-Italic), url(//fonts.gstatic.com/s/lato/v14/S6u8w4BMUTPHjxsAXC-u.eot?#) format("eot"), url(//fonts.gstatic.com/s/lato/v14/S6u8w4BMUTPHjxsAXC-q.woff2) format("woff2"), url(//fonts.gstatic.com/s/lato/v14/S6u8w4BMUTPHjxsAXC-s.woff) format("woff");
+}
+
+@font-face {
+  font-family: Lato;
+  font-style: italic;
+  font-weight: 700;
+  src: local("Lato Bold Italic"), local(Lato-BoldItalic), url(//fonts.gstatic.com/s/lato/v14/S6u_w4BMUTPHjxsI5wq_Gwfp.eot?#) format("eot"), url(//fonts.gstatic.com/s/lato/v14/S6u_w4BMUTPHjxsI5wq_Gwft.woff2) format("woff2"), url(//fonts.gstatic.com/s/lato/v14/S6u_w4BMUTPHjxsI5wq_Gwfr.woff) format("woff");
+}
+
+@font-face {
+  font-family: Lato;
+  font-style: italic;
+  font-weight: 900;
+  src: local("Lato Black Italic"), local(Lato-BlackItalic), url(//fonts.gstatic.com/s/lato/v14/S6u_w4BMUTPHjxsI3wi_Gwfp.eot?#) format("eot"), url(//fonts.gstatic.com/s/lato/v14/S6u_w4BMUTPHjxsI3wi_Gwft.woff2) format("woff2"), url(//fonts.gstatic.com/s/lato/v14/S6u_w4BMUTPHjxsI3wi_Gwfr.woff) format("woff");
+}
+
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 100;
+  src: local("Lato Hairline"), local(Lato-Hairline), url(//fonts.gstatic.com/s/lato/v14/S6u8w4BMUTPHh30AXC-u.eot?#) format("eot"), url(//fonts.gstatic.com/s/lato/v14/S6u8w4BMUTPHh30AXC-q.woff2) format("woff2"), url(//fonts.gstatic.com/s/lato/v14/S6u8w4BMUTPHh30AXC-s.woff) format("woff");
+}
+
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  src: local("Lato Light"), local(Lato-Light), url(//fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh7USSwiPHQ.eot?#) format("eot"), url(//fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh7USSwiPGQ.woff2) format("woff2"), url(//fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh7USSwiPHw.woff) format("woff");
+}
+
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lato Regular"), local(Lato-Regular), url(//fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wWg.eot?#) format("eot"), url(//fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wXg.woff2) format("woff2"), url(//fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wWA.woff) format("woff");
+}
+
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Lato Bold"), local(Lato-Bold), url(//fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwiPHQ.eot?#) format("eot"), url(//fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwiPGQ.woff2) format("woff2"), url(//fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwiPHw.woff) format("woff");
+}
+
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  src: local("Lato Black"), local(Lato-Black), url(//fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh50XSwiPHQ.eot?#) format("eot"), url(//fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh50XSwiPGQ.woff2) format("woff2"), url(//fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh50XSwiPHw.woff) format("woff");
+}
+@import url("https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i");
+
+@font-face {
+  font-family: 'Gothic';
+  src: url("../fonts/Gothic/GOTHIC.eot") format("embedded-opentype"), url("../fonts/Gothic/GOTHIC.woff2") format("woff2"), url("../fonts/Gothic/GOTHIC.woff") format("woff"), url("../fonts/Gothic/GOTHIC.ttf") format("truetype"), url("../fonts/Gothic/GOTHIC.svg") format("svg");
+}
+
 html {
   width: 100%;
 }
@@ -12,7 +88,7 @@ body {
   font-family: inherit;
   text-align: left;
   vertical-align: baseline;
-  background-image: url("../../img/bg.png");
+  background-image: url("../img/bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   -webkit-user-select: none;
@@ -121,7 +197,7 @@ textarea:active {
   margin-top: 25px;
   margin-bottom: 0;
   color: #014ab1;
-  font-family: "Century Gothic";
+  font-family: "Gothic";
   font-size: 43px;
   font-weight: 700;
   text-transform: uppercase;
@@ -132,7 +208,7 @@ textarea:active {
   width: 100%;
   text-align: center;
   color: #014ab1;
-  font-family: "Century Gothic";
+  font-family: "Gothic";
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
@@ -143,7 +219,7 @@ textarea:active {
   top: 310px;
   z-index: 2;
   width: 100%;
-  background-image: url("../../img/white-bg.png");
+  background-image: url("../img/white-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 225px;
@@ -171,9 +247,15 @@ textarea:active {
   text-align: center;
   margin-top: 80px;
   color: #014ab1;
-  font-family: Calibri;
+  font-family: "Lato", sans-serif;
   font-size: 32px;
   font-style: italic;
+}
+
+@media (max-width: 500px) {
+  .baner__author-title {
+    margin-top: 30px;
+  }
 }
 
 .baner__author-descr {
@@ -182,7 +264,7 @@ textarea:active {
   text-align: center;
   margin-top: 30px;
   color: #014ab1;
-  font-family: Calibri;
+  font-family: "Lato", sans-serif;
   font-size: 22px;
   font-style: italic;
 }
@@ -207,9 +289,16 @@ textarea:active {
   top: 613px;
   width: 100%;
   height: 300px;
-  background-image: url("../../img/mirror.png");
+  background-image: url("../img/mirror.png");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media (max-width: 500px) {
+  .baner__mirror {
+    background-size: contain;
+    top: 1245px;
+  }
 }
 
 .baner__count {
@@ -217,16 +306,26 @@ textarea:active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-top: 40px;
 }
 
+@media (max-width: 500px) {
+  .baner__count {
+    position: relative;
+    float: left;
+    margin-top: 290px;
+  }
+}
+
 .baner__count-elem {
   position: relative;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .baner__count-title {
@@ -234,7 +333,7 @@ textarea:active {
   text-align: center;
   margin-bottom: -10px;
   color: #014ab1;
-  font-family: "Century Gothic";
+  font-family: "Gothic";
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
@@ -246,17 +345,23 @@ textarea:active {
   color: #014ab1;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: "Century Gothic";
+  font-family: "Gothic";
   font-size: 74px;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+@media (max-width: 500px) {
+  .baner__count-num {
+    font-size: 50px;
+  }
 }
 
 .baner__count-descr {
   width: 100%;
   text-align: center;
   color: #014ab1;
-  font-family: "Century Gothic";
+  font-family: "Gothic";
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
@@ -274,7 +379,7 @@ textarea:active {
   width: 100%;
   text-align: center;
   color: #014ab1;
-  font-family: "Century Gothic";
+  font-family: "Gothic";
   font-size: 25px;
   font-weight: 700;
   text-transform: uppercase;
@@ -291,9 +396,22 @@ textarea:active {
   top: -180px;
   height: 200px;
   width: 100%;
-  background-image: url("../../img/triangle-top.png");
+  background-image: url("../img/triangle-top.png");
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+@media (max-width: 1600px) {
+  .partner__triang-top {
+    top: -140px;
+  }
+}
+
+@media (max-width: 500px) {
+  .partner__triang-top {
+    display: block;
+    top: -12px;
+  }
 }
 
 .partner__bg {
@@ -302,9 +420,17 @@ textarea:active {
   float: left;
   width: 100%;
   height: 185px;
-  background-image: url("../../img/partner-bg.png");
+  background-image: url("../img/partner-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media (max-width: 500px) {
+  .partner__bg {
+    height: 400px;
+    background-image: none;
+    background-color: white;
+  }
 }
 
 .partner__box {
@@ -336,6 +462,219 @@ textarea:active {
   height: 100%;
   -o-object-fit: contain;
   object-fit: contain;
+}
+
+.service {
+  position: relative;
+  float: left;
+  width: 100%;
+  background-image: url("../img/triangle-bottom.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 38px;
+  padding-bottom: 50px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.service__title {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  color: #014ab1;
+  font-family: "Gothic";
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.service__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.service__box:before {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 903px;
+  height: 5px;
+  background-image: url("../img/top-elips.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 240px;
+}
+
+@media (max-width: 500px) {
+  .service__box:before {
+    display: none;
+  }
+}
+
+.service__box-elem {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 500px) {
+  .service__box-elem {
+    width: 100%;
+  }
+}
+
+.service__box-elem:hover {
+  -webkit-box-shadow: 0 7px 9px rgba(0, 0, 0, 0.32);
+  box-shadow: 0 7px 9px rgba(0, 0, 0, 0.32);
+}
+
+.service__box-title {
+  width: 100%;
+  color: #014ab1;
+  font-family: "Gothic";
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 2px solid #014ab1;
+  padding: 7px;
+  margin: 0;
+  text-align: center;
+}
+
+.service__descr-box {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+
+.service__descr-box:before {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 309px;
+  height: 5px;
+  background-image: url("../img/bottom-elips.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 180px;
+  left: 345px;
+}
+
+@media (max-width: 500px) {
+  .service__descr-box:before {
+    display: none;
+  }
+}
+
+.service__descr-elem {
+  position: relative;
+  margin-bottom: 35px;
+  background-color: white;
+  border: 3px solid gray;
+  border-radius: 25px;
+  padding: 10px 45px 10px 45px;
+}
+
+@media (max-width: 500px) {
+  .service__descr-elem {
+    width: 100%;
+  }
+}
+
+.service__descr-elem:hover {
+  background-color: #014ab1;
+  -webkit-box-shadow: 0 7px 9px rgba(0, 0, 0, 0.32);
+  box-shadow: 0 7px 9px rgba(0, 0, 0, 0.32);
+}
+
+.service__descr-elem:hover .service__descr-title {
+  color: white;
+}
+
+.service__descr-title {
+  color: #014ab1;
+  font-family: "Gothic";
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .service__descr-title {
+    font-size: 13px;
+  }
+}
+
+.service__free {
+  position: absolute;
+  top: -30px;
+  left: 197px;
+  background-color: red;
+  border-radius: 20px 20px 0 0;
+  padding: 0 10px 0 10px;
+}
+
+@media (max-width: 500px) {
+  .service__free {
+    width: 200px;
+    height: 30px;
+    top: -33px;
+    left: 100px;
+  }
+}
+
+.service__free-title {
+  color: white;
+  font-family: "Gothic";
+  font-size: 19px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media (max-width: 500px) {
+  .service__free-title {
+    position: relative;
+    top: 6px;
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+.service__social {
+  margin-top: 40px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.service__social-box {
+  width: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,182 @@
+.service {
+  position: relative;
+  float: left;
+  width: 100%;
+  background-image: url("../img/triangle-bottom.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 38px;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+
+
+
+  &__title {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    color: #014ab1;
+    font-family: $Gothic;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__box {
+  display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+    &::before {
+      position: absolute;
+      content: '';
+      display: block;
+      width: 903px;
+      height: 5px;
+      background-image: url("../img/top-elips.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      top: 240px;
+
+      @include breakpoint(max-width 500px) {
+        display: none;
+      }
+    }
+
+    &-elem {
+      position: relative;
+      margin-bottom: 15px;
+
+      @include breakpoint(max-width 500px) {
+        width: 100%;
+      }
+
+      &:hover {
+        box-shadow: 0 7px 9px rgba(0, 0, 0, 0.32);
+      }
+    }
+
+    &-title {
+      width: 100%;
+      color: #014ab1;
+      font-family: $Gothic;
+      font-size: 15px;
+      font-weight: 700;
+      text-transform: uppercase;
+      border: 2px solid #014ab1;
+      padding: 7px;
+      margin: 0;
+      text-align: center;
+    }
+  }
+
+  &__descr-box {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 80px;
+
+    &::before {
+      position: absolute;
+      content: '';
+      display: block;
+      width: 309px;
+      height: 5px;
+      background-image: url("../img/bottom-elips.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      top: 180px;
+      left: 345px;
+
+      @include breakpoint(max-width 500px) {
+        display: none;
+      }
+    }
+  }
+
+  &__descr-elem {
+    position: relative;
+    margin-bottom: 35px;
+    background-color: white;
+    border: 3px solid gray;
+    border-radius: 25px;
+    padding: 10px 45px 10px 45px;
+
+    @include breakpoint(max-width 500px) {
+      width: 100%;
+    }
+
+
+    &:hover {
+      background-color: #014ab1;
+      box-shadow: 0 7px 9px rgba(0, 0, 0, 0.32);
+
+      .service__descr-title {
+        color: white;
+      }
+    }
+  }
+
+  &__descr-title {
+    color: #014ab1;
+    font-family: $Gothic;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+
+    @include breakpoint(max-width 500px) {
+      font-size: 13px;
+    }
+  }
+
+  &__free {
+    position: absolute;
+    top: -30px;
+    left: 197px;
+    background-color: red;
+    border-radius: 20px 20px 0 0;
+    padding: 0 10px 0 10px;
+
+    @include breakpoint(max-width 500px) {
+      width: 200px;
+      height: 30px;
+      top: -33px;
+      left: 100px;
+    }
+  }
+
+  &__free-title {
+    color: white;
+    font-family: $Gothic;
+    font-size: 19px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    @include breakpoint(max-width 500px) {
+      position: relative;
+      top: 6px;
+     font-size: 12px;
+      text-align: center;
+    }
+  }
+
+  &__social {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    &-box {
+      width: 160px;
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+
+
+}
