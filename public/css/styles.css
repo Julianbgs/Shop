@@ -176,11 +176,10 @@ textarea:active {
 }
 
 .baner__logo {
-  width: 292px;
+  width: 150px;
   height: 138px;
   overflow: hidden;
   margin: 0 auto;
-  margin-top: 45px;
 }
 
 .baner__logo img {
@@ -194,11 +193,11 @@ textarea:active {
   position: relative;
   width: 100%;
   text-align: center;
-  margin-top: 25px;
+  margin-top: 0;
   margin-bottom: 0;
   color: #014ab1;
   font-family: "Gothic";
-  font-size: 43px;
+  font-size: 28px;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -216,7 +215,7 @@ textarea:active {
 
 .baner__white-bg {
   position: absolute;
-  top: 310px;
+  top: 200px;
   z-index: 2;
   width: 100%;
   background-image: url("../img/white-bg.png");
@@ -318,7 +317,7 @@ textarea:active {
   .baner__count {
     position: relative;
     float: left;
-    margin-top: 290px;
+    margin-top: 130px;
   }
 }
 
